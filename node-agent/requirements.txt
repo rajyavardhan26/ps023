@@ -1,0 +1,10 @@
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+httpx>=0.27.0
+psutil>=5.9.8
+jinja2>=3.1.3
+pytest>=8.1.0
+# libvirt-python is optional when DEMO_MODE=true, but recommended for real KVM:
+# install on Fedora via: sudo dnf install -y python3-libvirt OR pip install libvirt-python

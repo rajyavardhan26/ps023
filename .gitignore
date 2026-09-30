@@ -1,0 +1,29 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment & Secrets
+.env
+*.pem
+*.key
+
+# Data & Disks
+*.qcow2
+*.img
+*.iso
+controller/cloud_controller.db
+*.db
+*.sqlite3
+storage/
+
+# Node / Frontend
+node_modules/
+dist/
+.DS_Store
+
+# Logs
+logs/
+*.log
